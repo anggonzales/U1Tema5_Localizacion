@@ -101,6 +101,7 @@ public class MiFusedLocation extends AppCompatActivity
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
     }
 
+    //Actualiza la posicion donde estamos
     @Override
     public void onLocationChanged(Location location) {
         if (location != null) {
